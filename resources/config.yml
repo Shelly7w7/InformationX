@@ -1,0 +1,61 @@
+# ██╗███╗   ██╗███████╗ ██████╗ ██████╗ ███╗   ███╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗██╗  ██╗
+# ██║████╗  ██║██╔════╝██╔═══██╗██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║╚██╗██╔╝
+# ██║██╔██╗ ██║█████╗  ██║   ██║██████╔╝██╔████╔██║███████║   ██║   ██║██║   ██║██╔██╗ ██║ ╚███╔╝ 
+# ██║██║╚██╗██║██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║██╔══██║   ██║   ██║██║   ██║██║╚██╗██║ ██╔██╗ 
+# ██║██║ ╚████║██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║██╔╝ ██╗
+# ╚═╝╚═╝  ╚═══╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
+
+# Hello everyone! Welcome to my InformationX plugin configuration.
+# USE '§' FOR COLORS!
+
+# Change the title for the GUI/UI.
+
+gui-title: "InformationX"
+
+# Set the main content.
+# Currently Supported Tags:
+# {name}                - Name of the player.
+# {money}               - Money of the player. (Requires EconomyAPI by poggit-orphanage).
+# {online}              - The number of online players.
+# {max_online}          - Max number of players allowed on the server.
+# {rank}                - Players current in-game rank/group. (Requires PurePerms by poggit-orphanage).
+# {prison_rank}         - Get players Prison rank. (Requires RankUp by Falkirks)
+# {item_name}           - Name of the item in players hand.
+# {item_id}             - ID of the item in players hand.
+# {item_meta}           - Meta/Damage of the item in players hand.
+# {item_count}          - Amount of item in the players hand.
+# {x}/{y}/{z}           - X/Y/Z coordinate of the player.
+# {faction}             - Faction of the player. (Requires FactionsPro by poggit-orphanage).
+# {load}                - Current load on the server (0 - 100%)
+# {tps}                 - TPS of the server.
+# {level_name}          - Name of the players current level/world.
+# {level_folder_name}   - Folder name of the players current level/world.
+# {ip}                  - IP of the player.
+# {ping}                - Ping of the player.
+# {kills}               - Get kill count of a player. (Requires KDR by JackMD).
+# {deaths}              - Get death count of a player. (Requires KDR by JackMD).
+# {kdr}                 - Get kill to death ratio of a player. (Requires KDR by JackMD).
+# {cps}                 - Get the clicks per second of a player. (Requires CPS by JackMD).
+# {is_state}            - Gets the state of your SkyBlock island. (Requires SkyBlock by GiantQuartz).
+# {is_blocks}           - Gets the number of blocks placed on your SkyBlock island. (Requires SkyBlock by GiantQuartz).
+# {is_members}          - Gets all the members of you SkyBlock island. (Requires SkyBlock by GiantQuartz).
+# {is_size}             - Gets the size of your SkyBlock island. (Requires SkyBlock by GiantQuartz).
+# {line}                - Makes a new line.
+# Note: You can find the required/supported plugins on poggit.pmmp.io!
+
+profile-content: "Name: {name}{line}Money: {money}{line}Players: {online}/{max_online}{line}Location: {x}/{y}/{z}"
+
+#Change the name of exit button from which you exit the form.
+
+exit-button: "Exit"
+
+#When you exit the form you will recieve a message, edit it here:
+
+exit-message: "You closed the Information Form!"
+
+# There is also an option to make command aliases!
+aliases:
+  - "myinfo"
+  - "info"
+
+# Credits: JackMD for letting me use some of his ScoreHud Code! Check out his github: github.com/JackMD
