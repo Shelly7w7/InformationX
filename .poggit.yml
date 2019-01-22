@@ -4,4 +4,5 @@ branches:
 projects:
   InformationX:
     path: ""
+    icon: iconx.png
 ...
