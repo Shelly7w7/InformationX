@@ -28,4 +28,4 @@ You can simply open an issue if you find any bugs and I'll try to fix it as soon
 
 ## Credits
 
-Special thanks to JackMD for letting me use scorehud data, Check him out github.com/JackMD
+Special thanks to JackMD for letting me use scorehud data, Check him out [here.](https://github.com/JackMD)
