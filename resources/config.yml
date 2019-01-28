@@ -35,7 +35,6 @@ gui-title: "InformationX"
 # {kills}               - Get kill count of a player. (Requires KDR by JackMD).
 # {deaths}              - Get death count of a player. (Requires KDR by JackMD).
 # {kdr}                 - Get kill to death ratio of a player. (Requires KDR by JackMD).
-# {cps}                 - Get the clicks per second of a player. (Requires CPS by JackMD).
 # {is_state}            - Gets the state of your SkyBlock island. (Requires SkyBlock by GiantQuartz).
 # {is_blocks}           - Gets the number of blocks placed on your SkyBlock island. (Requires SkyBlock by GiantQuartz).
 # {is_members}          - Gets all the members of you SkyBlock island. (Requires SkyBlock by GiantQuartz).
