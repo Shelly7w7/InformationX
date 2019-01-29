@@ -3,5 +3,4 @@ version: "1.0.0"
 author: Shelly7w7
 main: shelly7w7\informationx\Loader
 description: "Shows the most of player and server information in an GUI"
-depend: [FormAPI]
 api: [3.0.0]
