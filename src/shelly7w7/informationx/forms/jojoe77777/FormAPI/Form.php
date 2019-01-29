@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace shelly7w7\InformationX\forms\jojoe77777\FormAPI;
+namespace shelly7w7\informationx\forms\jojoe77777\FormAPI;
 
 use pocketmine\form\Form as IForm;
 use pocketmine\Player;
