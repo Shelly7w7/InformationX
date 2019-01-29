@@ -9,8 +9,7 @@ A customizable Profile/Information plugin by Shelly7w7!
 
 You can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/HealthTag)
 
-This plugin depends on FormAPI by JoeJoe! Download it [here.](https://poggit.pmmp.io/ci/jojoe77777/FormAPI/FormAPI)
-
+The plugin doesnt requires any required dependencies except for optional ones to show your required information on the UI.
 ### How to install?
 
 After downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)

@@ -8,7 +8,7 @@ use pocketmine\Player;
 use pocketmine\utils\Config;
 use pocketmine\Server;
 use shelly7w7\informationx\Loader;
-
+use shelly7w7\informationx\forms\jojoe77777\FormAPI\SimpleForm;
 
 class InformationCommand extends PluginCommand{
 
@@ -25,9 +25,8 @@ class InformationCommand extends PluginCommand{
         $this->GUI($sender);
     }
 
-    public function GUI(Player $player){
-        $api = $this->getPlugin()->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $sender, $data){
+     public function GUI(Player $player){
+        $form = new SimpleForm(function (Player $player, $data){
 					$result = $data;
 					
 					if($result === null){
@@ -35,7 +34,7 @@ class InformationCommand extends PluginCommand{
 					}
 						switch($result){
                         case 0:
-                        $sender->sendMessage($this->plugin->config->get("exit-message"));
+                        $player->sendMessage($this->plugin->config->get("exit-message"));
                         break;
                        }
         });
